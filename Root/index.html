@@ -17,6 +17,8 @@
     <link href="assets/css/magnific-popup.css" rel="stylesheet">
     <link href="assets/css/ionicons.min.css" rel="stylesheet"> <!-- Resource style -->
     <link href="assets/css/style.css" media="all" rel="stylesheet" type="text/css"/>
+    <script src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js" type="module"></script>
+    <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 
 <body>
@@ -65,7 +67,14 @@
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-6">
-
+                        <div id="aSide" style="height: 460px; width: 670px;">
+                            <model-viewer alt="VR Headset" ar auto-rotate camera-controls
+                                          camera-orbit="calc(-6.2rad + env(window-scroll-y) * 4rad) calc(60deg + env(window-scroll-y) * 180deg) calc(260m - env(window-scroll-y) * 1.5m)"
+                                          disable-zoom field-of-view="10deg" interaction-prompt="none"
+                                          ios-src="assets/3d/versimouse3Dv2.gltf" src="assets/3d/versimouse3Dv2.gltf"
+                                          style="height: 460px; width: 670px;">
+                            </model-viewer>
+                        </div>
                     </div>
                 </div>
             </div>

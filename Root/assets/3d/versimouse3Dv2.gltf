@@ -1,0 +1,146 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.16907575726509094,
+                0.7558803558349609,
+                -0.27217137813568115,
+                0.570947527885437
+            ],
+            "translation" : [
+                4.076245307922363,
+                5.903861999511719,
+                -1.0054539442062378
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Mouse Modifications V20 (2)",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "translation" : [
+                -1.5869275331497192,
+                6.092214584350586,
+                17.159570693969727
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.002",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.004255377687513828,
+                    0.004255377687513828,
+                    0.004255377687513828,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.4424460530281067
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mouse Modifications V20 (2)",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 148764,
+            "max" : [
+                139.6192169189453,
+                84.4732666015625,
+                -1.0702649354934692
+            ],
+            "min" : [
+                0.13335956633090973,
+                0.6706118583679199,
+                -41.45985412597656
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 148764,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5125,
+            "count" : 150846,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1785168,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1785168,
+            "byteOffset" : 1785168
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 603384,
+            "byteOffset" : 3570336
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 4173720,
+            "uri" : "versimouse3Dv2.bin"
+        }
+    ]
+}

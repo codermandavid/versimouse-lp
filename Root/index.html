@@ -25,7 +25,7 @@
 
 <div class="wrapper">
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
+        <div class="container pe-0">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button aria-expanded="false" class="navbar-toggle" data-target="#bs-example-navbar-collapse-1"
@@ -43,12 +43,8 @@
             <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li><a class="page-scroll" href="#main">Home</a></li>
-                    <li><a class="page-scroll" href="#specs">Specs</a></li>
-                    <li><a class="page-scroll" href="#features">Features</a></li>
                     <li><a class="page-scroll" href="#reviews">Reviews</a></li>
-                    <li><a class="page-scroll" href="#buy">Pricing</a></li>
-                    <li><a class="btn btn-nav page-scroll wow fadeInDown" data-wow-delay="0.3s"
-                           href="#buy"><span>Buy Now</span></a></li>
+                    <li><a class="page-scroll" href="#footer">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -60,19 +56,23 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-6">
                         <div class="intro">
-                            <h1 class="wow fadeInDown fw-normal mb-4" data-wow-delay="0.1s">Meet <span class="fw-bold">Versimouse</span>.
+                            <img alt="Versimouse" class="img-responsive mb-4"
+                                 src="assets/images/versimouseLogoGray.png">
+                            <h1 class="wow fadeInDown fw-normal mb-3 headline-size" data-wow-delay="0.1s">The Most
+                                Versatile Tool in your Productivity Kit.
                             </h1>
-                            <h1 class="wow fadeInDown fw-normal" data-wow-delay="0.1s">The All-in-One Touchpad and
-                                Optical Mouse.</h1>
+                            <h2 class="wow fadeInDown fw-normal" data-wow-delay="0.2s">All-in-One Ergonomic Mouse and
+                                Touchpad.
+                            </h2>
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-6">
-                        <div id="aSide" style="height: 460px; width: 670px;">
+                        <div class="viewer-size ps-45" id="aSide">
                             <model-viewer alt="VR Headset" ar auto-rotate camera-controls
-                                          camera-orbit="calc(-6.2rad + env(window-scroll-y) * 4rad) calc(60deg + env(window-scroll-y) * 180deg) calc(260m - env(window-scroll-y) * 1.5m)"
+                                          camera-orbit="calc(-6.2rad + env(window-scroll-y) * 4rad) calc(85deg + env(window-scroll-y) * 180deg) calc(260m - env(window-scroll-y) * 1.5m)"
+                                          class="viewer-size ps-45"
                                           disable-zoom field-of-view="10deg" interaction-prompt="none"
-                                          ios-src="assets/3d/versimouse3Dv2.gltf" src="assets/3d/versimouse3Dv2.gltf"
-                                          style="height: 460px; width: 670px;">
+                                          ios-src="assets/3d/versimouse3Dv2.gltf" src="assets/3d/versimouse3Dv2.gltf">
                             </model-viewer>
                         </div>
                     </div>
@@ -81,20 +81,24 @@
         </div><!-- Pi-Hero -->
 
 
-        <div class="features-boxed" id="specs">
+        <div class="features-boxed bg-versimouse" id="signup">
             <div class="container">
                 <div class="row mt-5">
                     <div class="col-sm-12 text-center p-0">
                         <div class="boxed-intro wow fadeInDown p-3 mt-0 d-inline-block">
-                            <h1>Coming Soon on Kickstarter</h1>
-                            <p>Enter to be the first to recieve launch day deals of up to <span
-                                    style="font-weight: bold;">40% OFF</span></p>
+                            <h1 class="text-white fw-bold d-inline-block pb-1">Coming this Summer on</h1>
+                            <img alt="Kickstarter" class="align-middle pb-3 ps-2 pe-2" height="48px"
+                                 src="assets/images/kickstarterLogoBW.png">
+                            <p class="text-white fw-normal mt-0">Enter to be the first to access launch day deals of up
+                                to <span
+                                        style="font-weight: bold;">40% OFF</span></p>
                         </div>
-                        <div class="d-inline-block align-top p-3 mt-4">
-                            <input class="wow fadeInDown me-1" data-wow-delay="0.3s" id="email" name="email"
-                                   placeholder="Email Address" style="
-                                width: 200px;
-                                height: 38px;
+                        <div class="d-inline-block align-top p-3 mt-2">
+                            <input class="wow fadeInDown me-1 btnTall border-white rounded-05" data-wow-delay="0.3s"
+                                   id="email" name="email" placeholder="Email Address"
+                                   style="
+                                height: 48px;
+                                width: 250px;
                                 vertical-align: middle;
                                 font-family:'Nunito';
                                 font-size: 14px;
@@ -102,8 +106,9 @@
                                 letter-spacing: 0.5px;
                                 padding-left: 10px;"
                                    type="email">
-                            <a class="btn btn-action btn-fb wow fadeInDown m-0" data-wow-delay="0.3s" href="#">
-                                <span>Submit</span>
+                            <a class="btn btn-action btn-fb wow fadeInDown m-0 fs btnTall shadow-box-green"
+                               data-wow-delay="0.3s" href="#">
+                                <span class="btnTall">Remind Me!</span>
                             </a>
                         </div>
                     </div>
@@ -116,24 +121,54 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="features-text wow fadeInDown">
-                            <h2>Real time traffic and activity demographics</h2>
-                            <p>I don't know what to type here so let me fill some random text. Lorem ipsum is hard to
-                                consume and I use it as a last resort. So, I'll fill random text please and you don't
-                                even
-                                have to read it.</p>
-                            <button class="btn btn-primary btn-action" type="button"><span>Buy Now</span></button>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
                         <div class="features-image wow fadeInRight">
                             <img alt="Image" class="img-responsive" src="assets/images/oculus.png">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 align-middle">
+                        <div class="features-text wow fadeInDown p-3">
+                            <h2>Maximize your Productivity</h2>
+                            <p>Versimouse features a proprietary switch-activated touchpad surface that provides
+                                unlimited versatility anywhere. No more limiting your productivity by the places you
+                                have to go.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
+        <div class="review-section" id="reviews">
+            <div class="container cta-2">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="review-text wow fadeInDown" data-wow-delay="0.2s">
+                            <img alt="Wrist pain" height="150px" src="assets/images/wristPain.jpg"/>
+                            <p>Benefit
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="review-text wow fadeInDown" data-wow-delay="0.2s">
+                            <p>Benefit
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="review-text wow fadeInDown" data-wow-delay="0.2s">
+                            <img alt="Wrist pain" height="150px" src="assets/images/businessLaptop.jpg"/>
+                            <p>Benefit
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="review-text wow fadeInDown" data-wow-delay="0.2s">
+                            <p>Benefit
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="flex-split">
             <div class="f-left">
@@ -156,7 +191,6 @@
             </div>
         </div>
 
-
         <div class="review-section" id="reviews">
             <div class="container">
                 <div class="row">
@@ -171,11 +205,6 @@
                                         rhoncus.</p>
                                     <h3>- Thomas Young</h3>
                                     <h3>Vice President Primal Inc</h3>
-                                    <i class="ion ion-star"></i>
-                                    <i class="ion ion-star"></i>
-                                    <i class="ion ion-star"></i>
-                                    <i class="ion ion-star"></i>
-                                    <i class="ion ion-star"></i>
                                 </div>
                             </div>
                             <div class="review-single"><img alt="Client Testimonoal" class="img-circle"
@@ -282,17 +311,17 @@
         </div>
 
 
-        <div class="footer">
+        <div class="footer" id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-5">
                         <div class="ft-left">
                             <div class="footer-img">
-                                <img alt="Logo" src="assets/icons/pi-logo.png" width="30">
+                                <img alt="Versimouse" src="assets/images/versimouseLogoWG.png" width="30">
                             </div>
                             <p>Cu qui probo malorum saperet. Ne admodum apeirian iracundia usu, eam cu agam ludus,
                                 eum munere accusam molestie ut. Alienum percipitur ne est, pri quando iriure ad. </p>
-                            <p>&copy; 2017 YDirection Themes by IOThemes</p>
+                            <p>All Rights Reserved &copy; 2022 - Versimouse Inc</p>
                         </div>
                     </div>
                     <div class="col-sm-4 col-sm-offset-3">

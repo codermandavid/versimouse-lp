@@ -26,8 +26,6 @@ All Contents
    License: none (public domain)
 */
 html, body {
-    width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
@@ -122,12 +120,12 @@ body {
 */
 
 ::-moz-selection {
-    color: #1106CC;
+    color: #00c194;
     background: #FFFFFF;
 }
 
 ::selection {
-    color: #1106CC;
+    color: #00c194;
     background: #FFFFFF;
 }
 
@@ -222,7 +220,7 @@ body {
     font-family: 'Nunito';
     font-size: 21px;
     font-weight: 700;
-    color: #41CD52;
+    color: #00C194;
     letter-spacing: 0;
     line-height: 1;
     text-transform: none;
@@ -252,23 +250,23 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #41CD52;
+    color: #00C194;
 }
 
 .navbar-default .navbar-nav > .active > a {
     background: transparent;
-    color: #41CD52;
+    color: #00C194;
 }
 
 
 .navbar-default .navbar-nav > .active > a:hover {
     background: transparent;
-    color: #41CD52;
+    color: #00C194;
 }
 
 .navbar-default .navbar-nav > .active > a:focus {
     background: transparent;
-    color: #41CD52;
+    color: #00C194;
 }
 
 .navbar-default .navbar-collapse {
@@ -293,7 +291,7 @@ body {
 }
 
 .navbar .btn-nav {
-    background: #41CD52;
+    background: #00C194;
     color: #FFFFFF;
     border-radius: 0.7rem;
     box-shadow: 0 3px 10px rgba(65, 205, 82, .5);
@@ -314,9 +312,9 @@ body {
 
 
 .navbar .btn-nav:hover {
-    background: #41CD52 !important;
+    background: #00C194 !important;
     color: #FFFFFF;
-    border-color: #41CD52 !important;
+    border-color: #00C194 !important;
     box-shadow: 0 5px 10px rgba(65, 205, 82, .5);
 }
 
@@ -357,12 +355,12 @@ body {
     }
 
     .navbar-default .navbar-brand {
-        color: #41CD52;
+        color: #00C194;
         padding: 15px 15px !important;
     }
 
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #41CD52;
+        background-color: #00C194;
     }
 
     .navbar .btn-nav {
@@ -396,12 +394,12 @@ body {
     }
 
     .navbar-default.past-main .navbar-brand {
-        color: #41CD52;
+        color: #00C194;
         padding: 15px;
     }
 
     .navbar-default.past-main .navbar-toggle .icon-bar {
-        background-color: #41CD52;
+        background-color: #00C194;
     }
 
     .navbar-default.past-main .navbar-nav > li > a {
@@ -411,23 +409,23 @@ body {
     }
 
     .navbar-default.past-main .navbar-nav > li > a:hover {
-        color: #41CD52;
+        color: #00C194;
     }
 
     .navbar-default.past-main .navbar-nav > .active > a {
         background: transparent;
-        color: #41CD52;
+        color: #00C194;
     }
 
 
     .navbar-default.past-main .navbar-nav > .active > a:hover {
         background: transparent;
-        color: #41CD52;
+        color: #00C194;
     }
 
     .navbar-default.past-main .navbar-nav > .active > a:focus {
         background: transparent;
-        color: #41CD52;
+        color: #00C194;
     }
 
     .navbar-default.past-main .btn-nav {
@@ -516,7 +514,7 @@ body {
     font-size: 42px;
     font-weight: 400;
     letter-spacing: -1px;
-    color: #41CD52;
+    color: #00C194;
 }
 
 .hero .intro p {
@@ -572,11 +570,11 @@ body {
 
 .btn-action {
     padding: 0.5rem 1.5rem;
-    background: #41CD52;
+    background: #00C194;
     border: 1px solid;
-    border-color: #41CD52;
+    border-color: #00C194;
     border-radius: .125rem;
-    box-shadow: 0 10px 30px rgba(65, 205, 82, .5);
+    box-shadow: 0 10px 30px #00c1947a;
     margin: 24px 12px 0 0;
     -webkit-transition: 0.2s;
     -moz-transition: 0.2s;
@@ -585,19 +583,19 @@ body {
 
 .btn-action:hover {
     color: #FFFFFF;
-    border-color: #41CD52;
-    background: #41CD52;
+    border-color: #00C194;
+    background: #00C194;
     -webkit-transform: translateY(-2px);
     -moz-transform: translateY(-2px);
     transform: translateY(-2px);
 }
 
 .intro .btn-action {
-    background: #41CD52;
+    background: #00C194;
 }
 
 .intro .btn-action:hover {
-    background: #41CD52;
+    background: #00C194;
 }
 
 .btn-action span {
@@ -715,7 +713,7 @@ body {
     padding-left: 7px;
     text-decoration: none;
     text-align: center;
-    color: #41CD52;
+    color: #00C194;
     background: #FFFFFF;
     font-size: 34px;
     font-weight: normal;
@@ -1119,7 +1117,7 @@ body {
 }
 
 .pricing-v2 .intro a {
-    color: #41CD52;
+    color: #00C194;
     text-decoration: none;
 }
 
@@ -1151,9 +1149,9 @@ body {
 
 
 .pricing-v2 .btn-action:focus {
-    background: #41CD52;
+    background: #00C194;
     outline: none;
-    border-color: #41CD52;
+    border-color: #00C194;
 }
 
 
@@ -1496,11 +1494,11 @@ body {
 
 .formee .right {
     height: 40px;
-    border: 2px solid #41CD52;
+    border: 2px solid #00C194;
     border-radius: 0 5px 5px 0;
     margin: 0;
     padding: 0 25px 0 25px;
-    background-color: #41CD52;
+    background-color: #00C194;
     color: #FFFFFF;
     box-shadow: 0 0 1px transparent;
     outline: none;
@@ -1510,7 +1508,7 @@ body {
 }
 
 .formee .right:focus {
-    border: 2px solid #41CD52;
+    border: 2px solid #00C194;
 }
 
 #email-error {
@@ -1540,7 +1538,7 @@ body {
 }
 
 .main-2 .formee .right {
-    background-color: #41CD52;
+    background-color: #00C194;
 }
 
 /*------------ Footer Lg Styling ---------------*/
@@ -1607,7 +1605,7 @@ body {
 }
 
 .ft-right ul li a:hover {
-    color: #41CD52
+    color: #00C194
 }
 
 .footer .ft-right p {
@@ -1921,4 +1919,49 @@ body {
         margin-top: 15px;
     }
 
+}
+
+
+.headline-size {
+    font-size: 43px !important;
+}
+
+@media (max-width: 1199.98px) {
+    .headline-size {
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .headline-size {
+        font-size: 32px !important;
+    }
+}
+
+.bg-versimouse {
+    background: #00C194 !important;
+}
+
+.bg-color-versimouse {
+    background-color: #00C194 !important;
+}
+
+.shadow-box-green {
+    box-shadow: 0 10px 30px #00513e8a !important;
+}
+
+.viewer-size {
+    height: 460px;
+    width: 670px !important;
+}
+
+.btn-white {
+    font-size: 14px !important;
+    padding: 13px 1rem !important;
+    color: #333333 !important;
+    background-color: #FFFFFF !important;
+}
+
+.btn-tall {
+    padding: 13px 1rem !important;
 }
